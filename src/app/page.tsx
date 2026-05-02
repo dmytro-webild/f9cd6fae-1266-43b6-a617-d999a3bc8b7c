@@ -112,6 +112,8 @@ export default function LandingPage() {
               names={["COC", "ACADESC", "Pearson", "Matemática", "Robótica", "Coding", "Inglês"]}
               title="Parceria COC"
               description="Sistema de ensino líder nacional."
+              textboxLayout="default"
+              useInvertedBackground={false}
             />
           </div>
 
@@ -121,6 +123,7 @@ export default function LandingPage() {
               testimonial="Seu filho não vencerá na escola a vida toda… mas uma boa escola vai na vida dele para sempre."
               rating={5}
               author="Família Raios de Sol"
+              avatars={[{ src: "https://i.pravatar.cc/150?u=1", alt: "Família" }]}
               ratingAnimation="slide-up"
               avatarsAnimation="slide-up"
             />
